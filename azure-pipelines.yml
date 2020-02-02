@@ -19,6 +19,6 @@ steps:
   inputs:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Azure subscription 1(4f2e9d94-b6ce-489c-a71c-7d77cd838b63)'
-    appType: 'webApp'
+    appType: 'webAppLinux'
     WebAppName: 'FirstWebAppCore'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
