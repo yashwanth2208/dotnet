@@ -22,3 +22,5 @@ steps:
     appType: 'webAppLinux'
     WebAppName: 'FirstWebAppCore'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+
+- task: PublishBuildArtifacts@1
